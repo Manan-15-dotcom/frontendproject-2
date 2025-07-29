@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import './program.css'
+import'./css/Program.css'
 
-export default class program extends Component {
+export default class Program extends Component {
   render() {
     return (
       <div className='content'>

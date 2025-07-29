@@ -11,11 +11,14 @@ function App() {
      <h2>today task's is to complete react</h2>
      <h3>date-29.07.2025"</h3>
      <h3>2400090137 - Manan shah</h3>
+     <h4>
+      {count}
+     </h4>
      <Link to="/page">Go To Page</Link>
      <br />
-     <Link to="/manan">Go To Page</Link>
+     <Link to="/manan">Go To MANAN</Link>
 <br />
-     <Link to="/program">Go To Page</Link>
+     <Link to="/program">Go To program</Link>
     </>
         )
       }
