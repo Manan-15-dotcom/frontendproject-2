@@ -13,6 +13,7 @@ export default class Program extends Component {
         </div>
         <div className='footer'>
             footer
+          <h1>TANISHQ</h1>
         </div>
       </div>
     )
