@@ -1,0 +1,188 @@
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  font-family: sans-serif;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.brand {
+  font-size: 20px;
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nav-center {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-center li {
+  cursor: pointer;
+  color: #555;
+  font-size: 15px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-bar {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.login {
+  background: white;
+  color: #0074cc;
+  border: 1px solid #0074cc;
+  border-radius: 4px;
+}
+
+.signup {
+  background: #0074cc;
+  color: white;
+  border-radius: 4px;
+}
+
+.menu {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-center,
+  .nav-right {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  #navlist.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background: white;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+  }
+}
+.footer {
+  background-color: #0c0d0e;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 40px 20px 20px;
+  font-size: 14px;
+    position: fixed;
+  bottom: 0;
+  left: 0;
+width: 100%;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 150px;
+  margin-right: 20px;
+}
+
+.footer-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer-column h4 {
+  color: #ccc;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+  color: #bbb;
+  cursor: pointer;
+}
+
+.footer-column ul li:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  text-align: center;
+  color: #888;
+  font-size: 12px;
+}
+
+.footer-bottom a {
+  color: #4ea6ea;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-bottom: 10px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
